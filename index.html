@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculater</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+<div class="Calculater">
+<input type="text" name="display" id="text" class="screen" placeholder="00" style="text-align: right;">
+
+<br>
+
+<input type="button" value="0" onClick="display('0')">
+<input type="button" value="1" onClick="display('1')" >
+<input type="button" value="2" onClick="display('2')">
+<input class="but-plus" type="button" value="+" onClick="display('+')">
+<br>
+<input type="button" value="3" onClick="display('3')">
+<input type="button" value="4" onClick="display('4')">
+<input type="button" value="5" onClick="display('5')">
+<input class="but-sub" type="button" value="-" onClick="display('-')">
+<br>
+<input type="button" value="6" onClick="display('6')">
+<input type="button" value="7" onClick="display('7')">
+<input type="button" value="8" onClick="display('8')">
+<input class="but-mult" type="button" value="*" onClick="display('*')">
+<br>
+<input type="button" value="9" onClick="display('9')">
+<input class="but-c" id="Button-C" type="button" value="c" onClick="clearScreen()">
+<input type="button" value="=" onClick="solve()">
+<input class="but-div" type="button" value="/" onClick="display('/')">
+
+</div>   
+<script src="script.js"></script>
+</body>
+</html>
